@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+  /*   margin: 0;
+    padding: 0; */
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    background-color: #191919;
+    min-height: 100vh;
+  }
+  
+  input {
+    border: none;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+  }
+  
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .tecladoCorrigir {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; 
+    margin-bottom: 10px;
+    background-color: #cccccc;
+    border-radius: 15px;
+    align-items: center;
+    padding: 10px;
+    height: 60px;
+  }
+  
+  .teclado {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; 
+  
+    background-color: #cccccc;
+    border-radius: 30px;
+  
+    padding: 10px;
+  }
+  
+  .numeros {
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    height: 80px;
+    width: 80px;
+  }
+  
+  input[type=tel] {
+    background-color: #cccccc;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 22px;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 280px;
+  }
+  
+  .tecladoLimpar {
+    border: 10px;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 125px;
+    height: 40px;
+  }
+  
+  .ativa {
+    background-color: yellow;
+  }
